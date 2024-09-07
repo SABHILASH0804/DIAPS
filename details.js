@@ -55,7 +55,7 @@ async function fetchData(lat, lng) {
 
 async function fetchWeatherData(lat, lng) {
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=${apiKeyWeatherAPI}&q=${lat},${lng}&days=3`);
+        const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKeyWeatherAPI}&q=${lat},${lng}&days=3`);
         if (!response.ok) {
             throw new Error('Failed to fetch weather data');
         }
