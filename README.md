@@ -1,4 +1,4 @@
-#DIAPS
+# DIAPS
 # Disaster Information Aggregation and Prediction Software
 
 This project is a web-based Disaster Aggregation Software that integrates multiple data sources to display weather forecasts, disaster risks, earthquake data, and elevation information for a user-selected location. The project uses APIs to retrieve and display real-time weather and disaster information and visualizes the data on an interactive map.
