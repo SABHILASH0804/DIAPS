@@ -77,7 +77,7 @@ The disaster risk graph is implemented using [Chart.js](https://www.chartjs.org/
   });
 
 
-### 4. **Earthquake Data**
+#### 4. **Earthquake Data**
    - Fetches recent earthquake data within a 100 km radius of the selected location using the [USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/event/1/).
    - Displays information about recent earthquakes, including location, magnitude, and time of occurrence.
    - If no earthquake data is available within 100 km, displays a message: "No recent earthquakes found within 100 km."
